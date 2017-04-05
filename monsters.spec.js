@@ -4,7 +4,7 @@ describe('Monster Constructor', function() {
 
   var mon = new Monster('Johnny', 'green', false, 'mind reading');
 
-  xit('we have imported our constructor', function() {
+  it('we have imported our constructor', function() {
     expect(mon).toBeDefined();
   });
 
